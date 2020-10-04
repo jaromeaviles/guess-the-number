@@ -1,5 +1,6 @@
 body {
 	background-color: #013220;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .col-lg-12, .col-md-12, .col-sm-12 {
@@ -12,10 +13,11 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
+	h1 {
 	color: #ffffff;
-	font-size: 80px;
+	font-family: 'Roboto', sans-serif;
 }
+
 
 .message {
 	color: #ffffff;
@@ -23,17 +25,18 @@ h1 {
 	padding: 20px;
 }
 
-p {
-	color: #ffffff;
-	font-size: 30px;
-}
-
 .display {
 	height: 50px;
 }
 
+
 input {
 	width: 35%;
+	text-align: center;
+	height: 45px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #button-container {
@@ -46,25 +49,84 @@ button {
 	font-weight: bold !important;
 }
 
-@media only screen and (max-width: 1366px) {
+/* Desktop */
+
+@media screen and (max-width: 1920px) {
+	
+
+	button {
+	padding: 10px 40px !important;
+	font-weight: bold !important;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+p {
+	color: #ffffff;
+	font-size: 30px;
+}
+
+}
+
+/* Laptop */
+
+@media screen and (max-width: 1366px) {
+
+
+button {
+	padding: 10px 40px !important;
+	font-weight: bold !important;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+p {
+	color: #ffffff;
+	font-size: 30px;
+}
   
 }
+
+/* Tablet */
 
 @media only screen and (max-width: 768px) {
 
-	.col-lg-12, .col-md-12, .col-sm-12 {
-	width: 100%;
-	margin: 0;
-	height: 75vh !important;
-}
+	h1 {
+		font-size: 110px;
+	}
+	p {
+		font-size: 40px;
+		text-align: center;
+	}
+	input {
+		width: 55%;
+		height: 60px;
+		font-size: 40px;
+	}
+	button {
+		font-size: 30px !important;
+	}
   
 }
 
-@media only screen and (max-width: 375px) {
-  	.col-lg-12, .col-md-12, .col-sm-12 {
-	width: 100%;
-	margin: 0;
-	height: 50vh !important;
-}
+/* Mobile */
+
+
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 60px;
+	}
+	p {
+		font-size: 30px;
+	}
+	button {
+		font-size: 25px !important;
+		
+	}
 }
 

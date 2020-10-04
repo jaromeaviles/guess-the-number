@@ -29,7 +29,6 @@ if (Number(input.value) === answer) {
 
 });
 
-
 resetButton.addEventListener("click", function () {
 	input.value = "";
 	displayMessage.textContent = "";
