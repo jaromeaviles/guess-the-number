@@ -12,7 +12,6 @@ enterButton.addEventListener("click", function () {
 if (Number(input.value) === answer) {
 	displayMessage.textContent = "You've Guessed It!";
 	displayMessage.classList.add("message");
-	input.value = "";
 	enterButton.disabled = true;
 	input.classList.add("disabled");
 
@@ -24,7 +23,6 @@ if (Number(input.value) === answer) {
 
 	displayMessage.textContent = "Error! Try Again!";
 	displayMessage.classList.add("message");
-	input.value = "";
 }
 
 });
