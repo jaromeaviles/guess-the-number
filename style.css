@@ -13,17 +13,11 @@ body {
 	margin: 0 auto;
 }
 
-	h1 {
+h1 {
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 }
 
-
-.message {
-	color: #ffffff;
-	margin-top: 20px;
-	padding: 20px;
-}
 
 .display {
 	height: 50px;
@@ -34,9 +28,9 @@ input {
 	width: 35%;
 	text-align: center;
 	height: 45px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 #button-container {
@@ -55,18 +49,18 @@ button {
 	
 
 	button {
-	padding: 10px 40px !important;
-	font-weight: bold !important;
-}
+		padding: 10px 40px !important;
+		font-weight: bold !important;
+	}
 
-h1 {
-	font-size: 80px;
-}
+	h1 {
+		font-size: 80px;
+	}
 
-p {
-	color: #ffffff;
-	font-size: 30px;
-}
+	p {
+		color: #ffffff;
+		font-size: 20px;
+	}
 
 }
 
@@ -75,21 +69,21 @@ p {
 @media screen and (max-width: 1366px) {
 
 
-button {
-	padding: 10px 40px !important;
-	font-weight: bold !important;
-}
+	button {
+		padding: 10px 40px !important;
+		font-weight: bold !important;
+	}
 
-h1 {
-	font-size: 80px;
-	text-align: center;
-}
+	h1 {
+		font-size: 80px;
+		text-align: center;
+	}
 
-p {
-	color: #ffffff;
-	font-size: 30px;
-}
-  
+	p {
+		color: #ffffff;
+		font-size: 20px;
+	}
+
 }
 
 /* Tablet */
@@ -111,13 +105,13 @@ p {
 	button {
 		font-size: 30px !important;
 	}
-  
+
 }
 
 /* Mobile */
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 	h1 {
 		font-size: 60px;
 	}
